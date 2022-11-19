@@ -1,0 +1,355 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+
+	line-height: 1;
+}
+ol, ul {
+
+	list-style: none;
+}
+blockquote, q {
+
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+
+	content: '';
+	content: none;
+}
+table {
+
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	background-image: url('grad.png');
+}
+.container_info {
+
+	display: flex;
+	flex-direction: row;
+
+	width: 1300px;
+}
+.container_projects {
+
+	display: flex;
+	flex-direction: row;
+
+	width: 1300px;
+}
+.man {
+
+	position: relative;
+
+	width: 150px;
+	height: 150px;
+
+	background: #576494;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(2px);
+	/* Note: backdrop-filter has minimal browser support */
+
+	border-radius: 35px;
+}
+.man_1 {
+
+	position: absolute;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	left: 12px;
+
+	width: 125px;
+	height: 125px;
+}
+.block_1 {
+
+	position: relative;
+
+	display: block;
+
+	max-height: 150px;
+	max-width: 150px;
+
+	margin-top: 40px;
+    margin-left: 70px;
+
+}
+.block_2 {
+
+	position: relative;
+
+	display: block;
+
+	max-height: 100px;
+	max-width: 480px;
+
+	margin-left: 32px;
+}
+.name_block {
+
+	position: relative;
+
+	
+
+	width: 480px;
+	height: 100px;
+
+	margin-top: 90px;
+
+	background: #576494;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(2px);
+	/* Note: backdrop-filter has minimal browser support */
+
+	border-radius: 35px;
+}
+.name {
+
+	position: absolute;
+
+	left: 69px;
+	padding-right: 0px;
+	padding-top: 16px;
+
+	font-family: 'Red Rose';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 62px;
+	width: 400px;
+
+	color: #FFFFFF;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.block_my_projects_title {
+
+	display: block;
+	
+	margin-top: 60px;
+	margin-left: 70px;
+
+	width: 1205px;
+	height: 70px;
+
+	background: #576494;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(2px);
+	/* Note: backdrop-filter has minimal browser support */
+
+	border-radius: 35px;
+
+}
+.my_projects {
+	
+	text-align: center;
+	font-family: 'Red Rose';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 62px;
+
+	color: #FFFFFF;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.g_svg { 
+
+	position: relative;
+
+	display: block;
+
+	margin-top: 90px;
+	margin-left: 30px;
+	padding-right: 69px;
+
+}
+.gt_logo {
+
+	display: block;
+
+	margin-top: 55px;
+	margin-left: 70px;
+
+}
+.gf_logo {
+
+	display: block;
+
+	margin-top: 33px;
+	margin-left: 65px;
+
+}
+.fs_logo {
+
+	display: block;
+
+	margin-top: 55px;
+	margin-left: 65px;
+}
+.case_logo {
+
+	display: block;
+
+	margin-top: 45px;
+	margin-left: 65px;
+
+}
+@media screen and (max-width: 768px) {
+	
+	.g_svg {
+
+		
+	}
+	.container_info {
+
+		width: 780px;
+	}
+	.block_1 {
+
+	}
+	.block_my_projects_title {
+
+		display: block;
+	
+		margin-top: 60px;
+		margin-left: 70px;
+
+		width: 1210px;
+		height: 150px;
+
+		background: #576494;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		backdrop-filter: blur(2px);
+		/* Note: backdrop-filter has minimal browser support */
+
+		border-radius: 35px;
+		
+	}
+	.my_projects {
+
+		text-align: center;
+		font-family: 'Red Rose';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 70px;
+		line-height: 130px;
+
+		color: #FFFFFF;
+
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+	}
+	.gt_logo {
+
+		display: block;
+
+		margin-top: 55px;
+		margin-left: 70px;
+
+	}
+	.gf_logo {
+
+		display: block;
+
+		margin-top: 33px;
+		margin-left: 65px;
+
+	}
+	.fs_logo {
+
+		display: block;
+
+		margin-top: 55px;
+		margin-left: 65px;
+	}
+	.case_logo {
+
+		display: block;
+
+		margin-top: 45px;
+		margin-left: 65px;
+
+	}
+
+}
+@media screen and (min-width: 1366px) {
+
+	.text {
+
+		 display: none;
+
+	}
+	.text_block {
+
+		display: none;
+
+	}
+
+}
+.text {
+
+	position: absolute;
+	text-align: center;
+	font-family: 'Red Rose';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 70px;
+	line-height: 130px;
+
+	color: #FFFFFF;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text_block {
+
+	position: relative;
+
+	margin-top: 60px;
+	margin-left: 70px;
+
+	width: 1210px;
+	height: 300px;
+
+	background: #576494;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(2px);
+	/* Note: backdrop-filter has minimal browser support */
+
+	border-radius: 35px;
+
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
